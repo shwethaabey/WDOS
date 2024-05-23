@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh-Cart</title>
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/v4/icons/">
+
+
+</head>
+
+<body>
+
+
+
+    <!--navbar-->
+    <nav>
+
+        <article class="logo-icon">
+            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+        </article>
+
+        <div class="logo">FRESH-<strong>CART</strong></div>
+
+        <div class="menu-toggle">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <ul class="links">
+
+            <li><a href="website.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="order.html">Order</a></li>
+            <!--dropdown menu-->
+            <li><a href="#">Products</a>
+                <ul class="dropdown">
+                    <li><a href="./Product1.html">Dairy Products </a></li>
+                    <li><a href="./Product2.html">Vegetables</a></li>
+                    <li><a href="./Product3.html">Cosmetics and Skin care </a></li>
+                </ul>
+            </li>
+            <li><a href="./loyaltyregistration.html">Loyalty Registration</a></li>
+
+        </ul>
+        <a href="./order.html">
+            <article class="fav_cart">
+                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+            </article>
+        </a>
+    </nav>
+
+    <!--end nav bar-->
+
+
+
+
+
+    <!--form-->
+    <form action="/checkout" method="post">
+        <div class="form-group">
+            <label for="product">Product:</label>
+            <select id="product" name="product">
+                <option value="luxurious-mascara">Luxurious Mascara</option>
+                <option value="nourishing-lip-balm">Nourishing Lip Balm</option>
+                <!-- Add more product options -->
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+        </div>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group full-width">
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="delivery">Delivery Method:</label>
+            <select id="delivery" name="delivery">
+                <option value="standard">Standard Shipping</option>
+                <option value="express">Express Shipping (+$5)</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment">
+                <option value="credit-card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+            </select>
+        </div>
+        <div class="form-group full-width">
+            <button type="submit">Add to Cart</button>
+        </div>
+    </form>
+    <!--footer-->
+    <footer class="footer">
+        <div class="row">
+            <div class="col">
+                <h3>Contact us</h3>
+                <p>Address: No.321, Kandy rd, Katugasthota.</p>
+                <p>Phone number: 0740247381</p>
+                <p></p>
+                <p class="email-id">Email: shwetha@gmail.com</p>
+
+            </div>
+            <div class="col">
+                <h3>Links<div class="underline"><span></span></div>
+                </h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Our products</a></li>
+                    <li><a href="">Promotions</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+
+            </div>
+
+            <div class="col">
+                <h3>Suggestions<div class="underline"><span></span></div>
+                </h3>
+                <form class="ft">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button type="submit"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+
+                </form>
+                <div class="social-icons">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-whatsapp"></i>
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br>
+        <hr>
+
+        <div class="bottom-bar">
+            <p>&copy; 2023 fresh-cart. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+    <!--footer ends-->
+
+
+
+
+</body>
+<!-- Link to external JavaScript file -->
+<script src="toggle.js"></script>
+
+
+</html>
