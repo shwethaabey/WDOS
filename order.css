@@ -204,20 +204,8 @@ td img {
   height: 100px;
 }
 
-.cart .submit-btn{
-  width: 100%;
-  padding:12px;
-  font-size: 17px;
-  background: #27ae60;
-  color:#fff;
-  margin-top: 5px;
-  cursor: pointer;
 
-}
 
-.cart .submit-btn:hover{
-  background: #2ecc71;
-}
 
 
 
@@ -298,14 +286,14 @@ td img {
   width: 100%;
   padding:12px;
   font-size: 17px;
-  background: #27ae60;
+  background: #141515;
   color:#fff;
   margin-top: 5px;
   cursor: pointer;
 }
 
 .container form .submit-btn:hover{
-  background: #2ecc71;
+  background: #9aa29d;
 }
 
 /*----------------------------------footer---------------------------------------*/
