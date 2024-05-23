@@ -311,11 +311,8 @@ height: 40px;
 
 
 /*-------------------------end of product section-----------------------------*/
-@media (max-width: 769px) {
-
-
-
-
+@media (max-width: 769px) 
+{
 
   .topic{
       font-size: 25px;
