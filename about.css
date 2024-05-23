@@ -24,6 +24,7 @@ nav {
 
 .logo-icon {
     font-size: 35px;
+    margin-bottom: 7px;
 }
 
 nav .logo {
@@ -31,12 +32,14 @@ nav .logo {
     align-items: center;
     font-size: 30px;
     margin-left: 10px;
+    margin-right: 200px;
 }
 
 nav .links {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: 90px;
 }
 
 nav .links li {
@@ -45,7 +48,7 @@ nav .links li {
 
 nav .links a {
     display: block;
-    padding: 1em;
+    padding: 2rem;
     font-size: 16px;
     font-weight: bold;
     color: black;
@@ -73,7 +76,8 @@ ul li:hover ul.dropdown {
 }
 
 .fav_cart {
-    font-size: 35px;
+    font-size: 28px;
+    color: #000000;
 }
 
 /* Show menu-toggle icon only on screens smaller than 1024px */
@@ -133,7 +137,7 @@ ul li:hover ul.dropdown {
 }
 
 /* Responsive Styles for 390px and below */
-@media (max-width: 391px) {
+@media (max-width: 390px) {
     nav {
         height: auto;
     }
@@ -152,6 +156,10 @@ ul li:hover ul.dropdown {
     }
 }
 
+
+
+
+
 /* About Section */
 .about {
     background: url(about-image.jpeg) no-repeat left;
@@ -159,7 +167,7 @@ ul li:hover ul.dropdown {
     background-color: beige;
     overflow: hidden;
     padding: 40px ;
-    margin-top: 7%;
+    margin-top: 3%;
 }
 
 .inner-section {
@@ -523,136 +531,80 @@ ul li:hover ul.dropdown {
 }
 
 
-  
-  .footer {
-    width: 100%;
+/*----------------------------------footer---------------------------------------*/
+.footer {
     background-color: rgb(243, 236, 236);
-    color: black;
+    color: #1c1717;
     padding: 20px 0;
-    font-size: 20px;
-    line-height: 1.5;
+    flex-shrink: 0;
   }
   
-  .row {
-    width: 90%;
-    margin: auto;
+  .footer-container {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-right: 45px;
   }
   
-  .col {
-    flex-basis: 30%;
-    padding-top: 20px;
-    color: black;
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
   }
   
-  .col h3 {
+  .footer-section h4 {
     margin-bottom: 20px;
-    position: relative;
     text-decoration: underline;
+    font-size: large;
   }
   
-  .email-id {
-    border-bottom: 1px solid rgb(22, 22, 21);
-    margin: 20px 0;
+  .footer-section p,
+  .footer-section ul {
+    margin-bottom: 10px;
   }
   
-  ul li {
+  .footer-section ul {
     list-style: none;
-    margin-bottom: 12px;
+    padding: 0;
   }
   
-  ul li a {
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #110b0b;
     text-decoration: none;
-    color: rgb(4, 4, 4);
+    transition: color 0.3s;
   }
   
-  form {
-    padding-bottom: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #030303;
-    margin-bottom: 20px;
-  }
-  
-  .bottom-bar {
-    padding-top: 10px;
-    text-align: center;
-    padding-bottom: 10px;
-    background-color: rgb(243, 236, 236);
-    color: black;
+  .footer-section ul li a:hover {
+    color: #0a0909;
   }
   
   .social-icons {
-    font-size: 24px;
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    gap: 10px;
   }
   
-  .social-icons i {
-    margin: 0 10px;
+  .social-icon {
+    color: #080707;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.3s;
   }
   
-  .social-icons i:hover {
-    background-color: black;
-    color: #ebe7e7;
+  .social-icon:hover {
+    color: #181717;
   }
-  
   
   @media (max-width: 768px) {
-    .footer {
-      font-size: 18px;
-      line-height: 1.4;
-    }
-  
-    .row {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .col {
-      flex-basis: 100%;
-      padding-top: 20px;
-    }
-  
-    .social-icons {
-      font-size: 22px;
-    }
-  
-    .social-icons i {
-      margin: 0 8px;
-    }
-  }
-  
-  
-  @media (max-width: 391px) {
-    .footer {
-      font-size: 16px;
-      line-height: 1.4;
-    }
-  
-    .row {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .col {
-      flex-basis: 100%;
-      padding-top: 10px;
-    }
-  
-    .social-icons {
-      font-size: 20px;
-    }
-  
-    .social-icons i {
-      margin: 0 5px;
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
     }
   }
   
