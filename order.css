@@ -83,7 +83,6 @@ ul li:hover ul.dropdown {
   color: #000;
 }
 
-/* Show menu-toggle icon only on screens smaller than 1024px */
 .menu-toggle {
   display: none;
 }
@@ -115,7 +114,6 @@ ul li:hover ul.dropdown {
   }
 }
 
-/* Responsive Styles for 768px and below */
 @media (max-width: 768px) {
   nav {
       flex-direction: column;
@@ -139,7 +137,6 @@ ul li:hover ul.dropdown {
   }
 }
 
-/* Responsive Styles for 390px and below */
 @media (max-width: 390px) {
   nav {
       height: auto;
@@ -162,7 +159,8 @@ ul li:hover ul.dropdown {
 
 
 
-/*cart table*/
+/*---------------------cart table------------------------*/
+
 .cart {
   font-family: Arial, sans-serif;
   display: flex;
@@ -206,13 +204,12 @@ td img {
 
 
 
-
+/*------------------------cart table ends---------------------------------------*/
 
 
 
 
 /*----------------------------------form---------------------------------------*/
-/* Form styles */
 .container{
   display: flex;
   justify-content: center;
@@ -295,6 +292,11 @@ td img {
 .container form .submit-btn:hover{
   background: #9aa29d;
 }
+/*--------------form ends-------------*/
+
+
+
+
 
 /*----------------------------------footer---------------------------------------*/
 .footer {

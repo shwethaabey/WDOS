@@ -93,6 +93,7 @@ ul li:hover ul.dropdown {
         display: none;
         flex-direction: column;
         width: 100%;
+
     }
 
     nav .links.active {
@@ -108,6 +109,7 @@ ul li:hover ul.dropdown {
         padding: 10px 0;
         width: 100%;
         border-top: 1px solid #ddd;
+        margin-right: 60px;
     }
 }
 
@@ -221,7 +223,7 @@ ul li:hover ul.dropdown {
     margin-bottom: 3%;
 }
 
-.single-body {
+.browse-products {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -324,7 +326,7 @@ ul li:hover ul.dropdown {
     }
 }
 
-/*-----------------------------------popular categories------------------------------------*/
+/*-----------------------------------featured product categories------------------------------------*/
 .popular-products {
     text-align: center;
     margin-bottom: 40px;
@@ -394,7 +396,7 @@ ul li:hover ul.dropdown {
 
 
 
-/*-------------------------------------paragraph2------------------------------------*/
+/*-------------------------------------bullet points------------------------------------*/
 .main-para2 {
     padding-top: 70px;
     padding: 0 15px;
@@ -570,6 +572,9 @@ ul li:hover ul.dropdown {
         align-items: center;
     }
   }
+/*--------------------------------Footer end-------------------------------------------------------*/
+
+
 
 
 /* Small devices (390px and below) */
@@ -602,9 +607,6 @@ ul li:hover ul.dropdown {
         font-size: 10px;
     }
 }
-
-
-/*--------------------------------Footer end-------------------------------------------------------*/
 
 
 

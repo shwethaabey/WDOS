@@ -1,4 +1,4 @@
-/* General styles */
+/*------------------ General styles --------------*/
 * {
     margin: 0;
     padding: 0;
@@ -160,7 +160,7 @@ ul li:hover ul.dropdown {
 
 
 
-/* About Section */
+/*-------------------- About Section ----------------*/
 .about {
     background: url(about-image.jpeg) no-repeat left;
     background-size: 55%;
@@ -192,7 +192,7 @@ ul li:hover ul.dropdown {
     margin-bottom: 40px;
 }
 
-.contact-us button {
+.order button {
     font-size: 22px;
     text-align: center;
     letter-spacing: 2px;
@@ -205,15 +205,23 @@ ul li:hover ul.dropdown {
     cursor: pointer;
 }
 
-.contact-us button:hover {
+.order button:hover {
     transition: 1s;
     background-color: #ecf5f5;
     color: black;
 }
 
+
+/*--------------about us section---------------*/
+
+
+
+/*--------------branch--------------------------*/
+
 .h-con {
-    margin-left: 35rem;
+    margin-left: 32rem;
     margin-top: 9%;
+    font-size: 2.5rem;
 }
 
 .branch{
@@ -222,32 +230,10 @@ ul li:hover ul.dropdown {
     margin-right: 5%;
 }
 
-.branch h2{
-    
-    color: #000000;
-    font-size: 25px;
-    margin-left: 15%;
-    margin-top: 5%;
-    margin-bottom: 4%;
-    margin-right: 15%;
-    text-align: center;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items: center;
-    column-gap: 0.5rem;
-}
 
-  
-.branch h2::before, .branch h2::after{
-    content: "";
-    height: 2.5px;
-    background-color: #000000;
-    display: block;
-}
 
 .branch-content h3{
-    font-size: large;
+    font-size: larger;
     font-size: 20px;
     margin-top: 50px;
 }
@@ -287,7 +273,13 @@ ul li:hover ul.dropdown {
    
 }
 
-/* Table Section */
+/*---------------------branch section ends-----------------*/
+
+
+
+
+
+/*-------------------- Table Section---------------------- */
 .Services {
     text-align: center;
     margin: 5%;
@@ -328,66 +320,7 @@ ul li:hover ul.dropdown {
     font-weight: 500;
 }
 
-/* Responsive Styles for 768px and below */
-@media (max-width: 769px) {
-    .about {
-       
-        margin-top: 10.2%;
-       
-    }
-
-    .inner-section {
-        width: 100%;
-        padding: 60px;
-        font-size: 8px;
-    }
-
-    .con_1,.con_2,.con_3{
-        width: 98%;
-    }
-    
-
-    .img_left {
-        width: 40%;
-        height: 45%;
-        margin: 0 auto;
-        display: block;
-
-    }
-
-    .p_right{
-        font-size: 15px;
-        text-align: justify;
-    }
-
-    .res1, .res2 {
-        padding-left: 0;
-        margin-top: 20px;
-        text-align: center;
-    }
-
-    .iframe_right {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .table-row {
-        width: 90%;
-        font-size: 16px;
-    }
-
-    .table-cell {
-        display: block;
-        width: 100%;
-        text-align: left;
-        border-right: none;
-    }
-
-    .table-head {
-        display: none;
-    }
-}
-
+/*-------------------table ends-------------*/
 
 @media (max-width: 391px) {
    
@@ -437,29 +370,7 @@ ul li:hover ul.dropdown {
     margin-right: 5%;
 }
 
-.branch h2{
-    
-    color: #000000;
-    font-size: 25px;
-    margin-left: 15%;
-    margin-top: 5%;
-    margin-bottom: 4%;
-    margin-right: 15%;
-    text-align: center;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    align-items: center;
-    column-gap: 0.5rem;
-}
 
-  
-.branch h2::before, .branch h2::after{
-    content: "";
-    height: 2.5px;
-    background-color: #000000;
-    display: block;
-}
 
 .branch-content h3{
     font-size: large;
@@ -520,10 +431,6 @@ ul li:hover ul.dropdown {
         font-size: 18px;
         padding: 10px 10px;
     }
-
-   
-
-    
 
     .table-row {
         font-size: 14px;
@@ -608,3 +515,5 @@ ul li:hover ul.dropdown {
     }
   }
   
+
+  /*-------------footer ends----------------*/
