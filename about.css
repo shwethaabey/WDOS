@@ -295,7 +295,7 @@ ul li:hover ul.dropdown {
 
 /*--------------branch--------------------------*/
 .h-con {
-    margin-left: 35rem;
+    margin-left: 32rem;
     margin-top: 9%;
     font-size: 2.5rem;
 }
@@ -419,133 +419,6 @@ ul li:hover ul.dropdown {
     font-weight: 500;
 }
 
-<<<<<<< HEAD
-/*-------------------table ends-------------*/
-
-@media (max-width: 391px) {
-   
-    .about {
-       
-        background: url(about-image.jpeg) no-repeat left;
-        background-size: 90px;
-        margin-top: 18.2%;
-        background-color: beige;
-        overflow: hidden;
-        padding-left: 90px ;
-       
-    }
- 
-
-    .inner-section h1 {
-        font-size: 20px;
-        padding-left: 10px;
-    }
-
-
-    .inner-section {
-        width: 100%;
-  
-        font-size: 8px;
-        margin: 0;
-    }
-
-    
-    
-
-    .img_left {
-        width:60%;
-        height: auto;
-      
-
-    }
-
-    .p_right{
-        font-size: 10px;
-        text-align: justify;
-        margin: 10%;
-    }
-
-   
-.iframe_right{
-    margin: 45px;
-}
-    
-/* Branches with maps starts */
-
-.branch{
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-
-
-.branch-content h3{
-    font-size: large;
-    font-size: 20px;
-    margin-top: 50px;
-}
-
-
-.branch-content img{
-    
-    margin-top: 15px;
-    width: 20rem;
-    height: 15rem;
-    margin-right: 9rem;
-    float: left;
-    border-radius:10px;
-    box-shadow: 7px 5px 7px;
-    margin-bottom: 10px;
-}
-
-.branch-content p{
-    
-    justify-content: center;
-    text-align: justify;
-    margin-top: 10rem;
-    line-height: 18px;
-    padding-top: 50px;
-    font-size: 14px;
-}
-
-.branch-content iframe{
-    height: 300px;
-    width: 60%;
-    align-items: center;
-    margin-top: 30px;
-}
-
-.branch-content hr{
-    margin-top: 5rem;
-    background-color: #000000;
-   
-}
-
-
-
-    .text {
-        width: 220px;
-        font-size: 10px;
-        line-height: 17px;
-        margin-right: 20px;
-        color: #d6d4d4;
-       
-        
-    }
-
-    .contact-us button {
-        font-size: 18px;
-        padding: 6px;
-        width: 150px;
-    }
-
-    h4 {
-        font-size: 18px;
-        padding: 10px 10px;
-    }
-
-=======
 /* Responsive Styles */
 @media (max-width: 768px) {
     .table-row {
@@ -554,7 +427,6 @@ ul li:hover ul.dropdown {
 }
 
 @media (max-width: 576px) {
->>>>>>> 7bdd9bdb66c8e9f9eb5795ba0adec6711b13bbc3
     .table-row {
         font-size: 14px;
     }
