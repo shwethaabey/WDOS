@@ -93,6 +93,8 @@ nav .links {
     display: none;
     flex-direction: column;
     width: 100%;
+    margin-left: 0;
+
 }
 
 nav .links.active {
@@ -148,6 +150,7 @@ nav .logo {
 
 nav .links a {
     font-size: 14px;
+    
 }
 
 nav .fav_cart {

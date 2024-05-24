@@ -37,6 +37,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 margin-left: 80px;
+
 }
 
 nav .links li {
@@ -91,6 +92,8 @@ nav .links {
     display: none;
     flex-direction: column;
     width: 100%;
+    margin-left: 0;
+
 }
 
 nav .links.active {

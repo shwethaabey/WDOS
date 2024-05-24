@@ -93,6 +93,7 @@ ul li:hover ul.dropdown {
         display: none;
         flex-direction: column;
         width: 100%;
+        margin-left: 0;
     }
 
     nav .links.active {
@@ -154,24 +155,43 @@ ul li:hover ul.dropdown {
 }
 
 /*-------------------- About Section ----------------*/
+
+
+
+
+@media (max-width: 391px){
+    .about {
+       
+        margin-top: 38.2%;
+       
+    }
+
+    .inner-section h1 {
+        font-size: 20px;
+    }
+
+
+    .inner-section {
+        width: 100%;
+        padding-top: 60px;
+        font-size: 8px;
+    }
+}
 .about {
     background: url(about-image.jpeg) no-repeat left;
     background-size: 55%;
     background-color: beige;
     overflow: hidden;
-    padding: 40px;
-    margin-top: 3%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 40px ;
+    margin-top: 7%;
 }
 
 .inner-section {
     width: 55%;
+    float: right;
     background-color: beige;
     padding: 140px;
     box-shadow: slategrey;
-    margin-left: auto;
 }
 
 .inner-section h1 {
@@ -182,7 +202,7 @@ ul li:hover ul.dropdown {
 
 .text {
     font-size: 20px;
-    color: #080808;
+    color: #545454;
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
@@ -230,24 +250,19 @@ ul li:hover ul.dropdown {
     }
 }
 
-@media (max-width: 768px) {
-    .inner-section {
-        width: 100%;
-        padding: 60px;
-    }
-
-    .about {
-        background: none;
-        padding: 20px;
-        margin-top: 2%;
-        flex-direction: column;
-    }
-
-    .inner-section {
-        background: url(about-image.jpeg) no-repeat center;
-        background-size: cover;
-        margin: 0;
-    }
+@media (max-width: 769px) {
+    
+        .about {
+       
+            margin-top: 30.2%;
+           
+        }
+    
+        .inner-section {
+            width: 100%;
+            padding: 60px;
+            font-size: 8px;
+        }
 }
 
 @media (max-width: 576px) {
