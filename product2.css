@@ -309,6 +309,7 @@ nav .fav_cart {
 
 /*---------------------products--------------------------------------------*/
 
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -459,8 +460,10 @@ h1 {
 }
 
 .product-grid {
+ 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+
   gap: 10px;
 }
 
@@ -474,8 +477,8 @@ h1 {
 }
 
 .product img {
-  width: 80%;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-bottom: 1px solid #ddd;
   margin-bottom: 15px;
 }
@@ -510,7 +513,10 @@ h1 {
 
   
 
-}----------------------------*/
+}
+    
+
+/*---------------------------product section ends---------------------------------*/
 
 
 
